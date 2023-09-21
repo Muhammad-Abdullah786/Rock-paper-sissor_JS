@@ -2,10 +2,10 @@
 
 let userInput = prompt("Chose  Rock(r), paper(p), sissor(s): ");
 
-let random = Math.floor(Math.random() * 3);
+let random = [ Math.floor(Math.random()* 3)]
+let cpu = ["r","p","s"][random]
 // console.log(random);
 
-let cpu = ["r","p","s"][random]
 
 // let comp = cpu[ Math.floor(Math.random()*cpu.length)] 
 
